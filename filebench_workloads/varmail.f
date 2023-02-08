@@ -24,8 +24,8 @@
 #
 
 set $dir=/tmp
-set $nfiles=10000
-set $meandirwidth=1000000
+set $nfiles=20000
+set $meandirwidth=1000
 set $filesize=cvar(type=cvar-gamma,parameters=mean:16384;gamma:1.5)
 set $nthreads=16
 set $iosize=1m

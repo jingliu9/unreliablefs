@@ -29,7 +29,7 @@
 #
 
 set $dir=/tmp
-set $nfiles=100000
+set $nfiles=20000
 set $meandirwidth=200
 set $filesize=128k
 set $nthreads=20
