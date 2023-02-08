@@ -27,6 +27,7 @@
 set $dir=/tmp
 set $nfiles=10000
 set $filesize=16k
+set $dirwidth=200
 set $nthreads=1
 set $meaniosize=16k
 set $readiosize=1m
