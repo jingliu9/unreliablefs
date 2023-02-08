@@ -27,7 +27,7 @@ for fname in os.listdir('.'):
                         if not HAS_SET:
                             fw.write(f'set $dir={BENCH_PATH}\n')
                         HAS_SET = True
-                    if 'set $dir' in line:
+                    if 'set $dir' in line and 'dirwidth' not in line:
                         continue
                     fw.write(line)
         shutil.move(tmp_fname, fname)
